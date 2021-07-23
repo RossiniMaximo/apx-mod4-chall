@@ -1,0 +1,170 @@
+body{
+    background-image: url("https://s3-alpha-sig.figma.com/img/9bf7/d9cf/a4d5cbfa93152e4a3a7f5d271ff4abc8?Expires=1627257600&Signature=eZeyChwRantAnYqfqwcHS-ccR9~Do2koym9k5VotQ-M6NrVrz54xfwoCKvVMXLIYWjgeTpmeMt3RCE7VV0zd-Cew~gLgVZ1wTfauSedWclGkhV0S1P7wcF8gqyK3TyBvy2nrvrBVyLv0XuFvImBAbZIiyF9FHYstQXXygCCS8SQHs4mgna0nSMP86HMOIUmQXpS0hPUdyTP8FjofaIGlhHnSeO4b~tXXdqVjefDig5nunEqloYFkhexRafZNFcSlMXOu4KjMndU-hhD0sIlPmv4zDMcSOgcMztIIn2L4OgHy~YnoOTlJg5ydaZdbWawrCCG~e5uty4wqEfy5zaTMwA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    margin: 0;;
+}
+*{
+    box-sizing: border-box;
+}
+
+.primer-pag{
+    height: 700px;
+    padding: 80px;
+}
+
+.titulo{
+    font-family: "Montserrat";
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+
+.subtitle{
+    font-family: "Montserrat";
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+
+.welcome{
+    background-color: #141414;
+    height: 500px;
+}
+
+
+@media(min-width:960px){
+    .welcome{
+        background-color: #FFF;
+        height: 500px;
+        border-bottom: solid 6px;
+    }
+}
+
+.welcome__content{
+    text-align: center;
+    padding: 40px;
+}
+
+@media(min-width:960px){
+    .welcome__content{
+        display: flex
+    }
+}
+
+.content__img-container{
+    display: none;
+}
+
+@media(min-width:960px){
+    .content__img-container{
+        display: initial;
+    }
+}
+
+
+.content__img{
+    overflow: hidden;
+    margin-top:95px ;
+}
+
+
+
+@media(min-width:960px){
+    .content__description{
+        margin-top: 100px;
+        width: 600px;
+    }
+    
+}
+
+.content__title{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFF;
+    margin: 0;
+}
+
+@media(min-width:960px){
+    .content__title{
+        color: black;
+    }
+}
+
+.content__text{
+    font-family: "Poppins";
+    color: #FFf;
+    margin: 10px 0 0 0 ;
+}
+
+@media(min-width:960px){
+    .content__text{
+        color: black;
+    }
+}
+
+
+
+
+/* DESDE ACA COMIENZA MIS SERIVICIOS */
+
+.cards-container{
+    background-color: white;
+}
+
+@media(min-width:960px){
+    .cards-container{
+        display: flex;
+        padding: 40px;
+        gap: 20px;
+    }
+}
+
+.card__content{
+    display: flex;
+    flex-direction: column;
+    padding: 52px;
+}
+
+.card__title{
+    font-size: 32px;
+    margin: 20px;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.content__container{}
+
+
+
+.card__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+}
+.card__name,.card__description{
+    text-align: center;
+}
+.card__name{
+    font-size: 24px;
+    font-family: "Poppins";
+    margin: 20px 0 0 0 ;
+}
+
+.card__description{
+    font-family: "Poppins";
+}
+
+.card__link{
+    font-family: "Poppins";
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: violet;    
+}
+
+.contact-container{
+    background-color: #141414;;
+}

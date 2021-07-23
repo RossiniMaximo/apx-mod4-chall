@@ -1,0 +1,63 @@
+.footer{
+    background-color: #2C2C2C;
+    height: 500px;
+    display: flex;
+}
+
+@media(min-width:960px){
+    .footer{
+        height: 350px;
+        padding: 40px;
+    }
+}
+
+
+
+
+.footer__content{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+}
+
+@media(min-width:960px){
+    .footer__content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+
+
+.content__name{
+    font-family: "Orbitron";
+    font-size: 48px;
+    color: #FFF;
+}
+
+
+
+@media(min-width:960px){
+    .footer__link-container{
+       
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.content__links{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.content__link{
+    color: #FFF;
+    text-decoration: none;
+    font-family: "Poppins";
+}
