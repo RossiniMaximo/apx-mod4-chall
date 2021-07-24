@@ -8,14 +8,12 @@ function addWork(params){
     const clone = document.importNode(templateEl.content,true)
     containerEl.appendChild(clone);
 }
-
 function getImage(id,data){
     const imgFinder = data.includes.Asset.find((asset) => {
         return asset.sys.id == id ;
     })
     return imgFinder;
 }
-
 function getWorks(work){
     return fetch("https://cdn.contentful.com/spaces/phtj9v0j7v95/environments/master/entries?access_token=5b6HvGZbMAYO2ez3loEG7ORLIxnnRZBBhu2GdVhyI4w&content_type=portfolioServices")
     .then((res)=>{
@@ -34,7 +32,6 @@ function getWorks(work){
         return dataIterator;
     })
 }
-
 function main(){
     getWorks().then((works) => {
         for(let w of works){

@@ -11,9 +11,6 @@ async function postData(url , data = {}){
     });
         return response.json(); 
 }
-
-
-
 function contactComponent(element){
     const container = document.createElement("div");
     container.innerHTML = `
@@ -33,8 +30,7 @@ function contactComponent(element){
           <textarea  name="msg" cols="30" rows="10" class="content__textarea"  ></textarea>
           <button  class="form__button">Enviar</button>
       </form>
-   </section>
-    `
+   </section>`
     const formEl = container.querySelector(".contact__content-form");
     formEl.addEventListener("submit",(e)=>{
         e.preventDefault();
@@ -54,9 +50,5 @@ function contactComponent(element){
             console.log(res);
         })
     })
-
-          
-
     element.appendChild(container);
-
 }

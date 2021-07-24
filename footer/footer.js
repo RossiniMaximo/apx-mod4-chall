@@ -19,9 +19,6 @@ function footerComponent(el){
                  </div>
              </div>
          </div>
-     </section>
-    `;
-    
+     </section>`;
     el.appendChild(footerEl);
-
 }
