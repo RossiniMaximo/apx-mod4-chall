@@ -4,9 +4,11 @@ function headerComponent(element){
     <header class="header">
         <div class="header__content">
             <a href="./index.html" class="header__name">Maxi</a>
-            <button class="window__opener">
-                Menú
-            </button>
+            <div class="window-opener">
+              <div class="window-op__design"></div>
+              <div class="window-op__design"></div>
+              <div class="window-op__design"></div>
+           </div>
             <div class="header__ham-menu">
                 <div class="header__ham-menu__content">
                   <a href="./portfolio.html" class=" font-cfg header__link ">Portfolio</a>
@@ -23,7 +25,7 @@ function headerComponent(element){
         </div>
     </header>
     `;
-    const openerButton = contenedorEl.querySelector(".window__opener");
+    const openerButton = contenedorEl.querySelector(".window-opener");
     const closerButton = contenedorEl.querySelector(".window__out");
     const windowEl = contenedorEl.querySelector(".header__ham-menu");
     openerButton.addEventListener("click",()=>{
