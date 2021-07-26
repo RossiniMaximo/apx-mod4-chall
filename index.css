@@ -1,9 +1,9 @@
-body{
-    background-image: url("https://s3-alpha-sig.figma.com/img/9bf7/d9cf/a4d5cbfa93152e4a3a7f5d271ff4abc8?Expires=1627257600&Signature=eZeyChwRantAnYqfqwcHS-ccR9~Do2koym9k5VotQ-M6NrVrz54xfwoCKvVMXLIYWjgeTpmeMt3RCE7VV0zd-Cew~gLgVZ1wTfauSedWclGkhV0S1P7wcF8gqyK3TyBvy2nrvrBVyLv0XuFvImBAbZIiyF9FHYstQXXygCCS8SQHs4mgna0nSMP86HMOIUmQXpS0hPUdyTP8FjofaIGlhHnSeO4b~tXXdqVjefDig5nunEqloYFkhexRafZNFcSlMXOu4KjMndU-hhD0sIlPmv4zDMcSOgcMztIIn2L4OgHy~YnoOTlJg5ydaZdbWawrCCG~e5uty4wqEfy5zaTMwA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
-    margin: 0;;
-}
 *{
     box-sizing: border-box;
+}
+body{
+    background-image: url("./img/imagen-mountains.jpg");
+    margin: 0;;
 }
 
 .primer-pag{
@@ -47,7 +47,10 @@ body{
 
 @media(min-width:960px){
     .welcome__content{
-        display: flex
+        display: flex;
+        gap: 200px;
+        align-items: center;
+        justify-content: space-between
     }
 }
 
@@ -64,7 +67,8 @@ body{
 
 .content__img{
     overflow: hidden;
-    margin-top:95px ;
+    margin-top:55px ;
+
 }
 
 
@@ -106,7 +110,7 @@ body{
 
 
 
-/* DESDE ACA COMIENZA MIS SERIVICIOS */
+
 
 .cards-container{
     background-color: white;
@@ -132,9 +136,6 @@ body{
     font-family: "Montserrat";
     text-align: center;
 }
-
-.content__container{}
-
 
 
 .card__img{
